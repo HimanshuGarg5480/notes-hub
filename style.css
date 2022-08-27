@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E7F6F2;
+}
+.toolbox-cont{
+    height: 5rem;
+    background-color: #395B64;
+    display: flex;
+    align-items: center;
+
+}
+.toolbox-cont>*{
+    margin-left: 4rem;
+    border-radius: 2px;
+}
+.toolbox-priority-cont{
+    height: 3.5rem;
+    width: 16rem;
+    background-color: #2C3333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 7rem;
+    border-radius: 4px;
+}
+.action-btn-cont{
+    height: 3.5rem;
+    width: 8rem;
+    background-color: #2C3333;
+    border-radius: 4px;
+    display: flex;
+}
+.action-btn-cont>*{
+    color: #E7F6F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 50rem;
+}
+.action-btn-cont>*:hover{
+    background-color: #A5C9CA;
+}
+.color{
+    background-color: #A5C9CA;
+    height: 1.5rem;
+    width: 3rem;
+    border-radius: 4px;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightpink{
+    background-color: lightpink;
+}
+.black{
+    background-color: black;
+}
+.modal-cont{
+    height: 50vh;
+    width: 45vw;
+    background-color: antiquewhite;
+    position: absolute;
+    top:25vh;
+    left:27.5vw;
+    display: none;
+}
+.textarea-cont{
+    resize: none;
+    height: 100%;
+    width: 75%;
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.priority-colors-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2C3333;
+}
+.priority-color{
+    height: 3rem;
+    width: 50%;
+}
+.border{
+    border: 5px solid #E7F6F2;
+}
+.ticket-cont{
+    height: 14rem;
+    width: 16rem;
+    background-color: #A589CA;
+
+}
+.ticket-color{
+    height: 1rem;
+}
+.ticket-id{
+    height: 2rem;
+    padding: 0.4rem;
+}
+.task-area{
+    height: 9rem;
+    padding: 0.4rem;
+    outline: none;
+}
+.ticket-lock{
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.35rem;
+    padding-right: 1rem;
+    color: #E7F6F2;
+}
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+
